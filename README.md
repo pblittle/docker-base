@@ -1,4 +1,4 @@
-This is a base image that is used for system updates and installation of standard server packages. The image is based on the Phusion Baseimage.
+This is a base image that is used for system updates and installation of standard server packages. The image uses the `phusion/baseimage` base image.
 
     https://github.com/phusion/baseimage-docker
 
