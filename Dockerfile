@@ -1,4 +1,4 @@
-FROM phusion/baseimage:0.9.6
+FROM phusion/baseimage:0.9.8
 MAINTAINER P. Barrett Little <barrett@barrettlittle.com>
 
 # This base image uses the phusion/baseimage base image.

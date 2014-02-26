@@ -1,5 +1,5 @@
 NAME = pblittle/base
-VERSION = 0.2.1
+VERSION = 0.2.2
 
 build:
 	docker build -rm -t $(NAME):$(VERSION) .
