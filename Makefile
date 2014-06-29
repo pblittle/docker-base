@@ -2,12 +2,12 @@ NAME = pblittle/base
 VERSION = 0.2.2
 
 build:
-	docker build -rm -t $(NAME):$(VERSION) .
+	docker build --rm -t $(NAME):$(VERSION) .
 
 run:
 	docker run -d \
 		-p 22 \
-		-name base \
+		--name base \
 		$(NAME):$(VERSION)
 
 tag:
@@ -17,4 +17,4 @@ release:
 	docker push $(NAME)
 
 shell:
-	docker run -t -i -rm $(NAME):$(VERSION) bash
+	docker run -t -i --rm $(NAME):$(VERSION) bash
